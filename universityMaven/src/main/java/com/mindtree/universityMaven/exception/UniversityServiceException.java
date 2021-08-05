@@ -1,0 +1,32 @@
+package com.mindtree.universityMaven.exception;
+
+public class UniversityServiceException extends UniversityApplicationException {
+
+	public UniversityServiceException() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public UniversityServiceException(String message, Throwable cause, boolean enableSuppression,
+			boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+	public UniversityServiceException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public UniversityServiceException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public UniversityServiceException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+}
